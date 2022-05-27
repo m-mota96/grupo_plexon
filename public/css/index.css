@@ -1,0 +1,80 @@
+@font-face {
+    font-family: GothamBook;
+    src: url(/public/css/Gotham-Black.otf);
+}
+body {
+    font-family: Gotham, sans-serif;
+}
+.text-blue {
+    color: #3B639C;
+}
+.text-grey {
+    color: #6A6A67;
+}
+.carousel-caption {
+    top: 50px !important;
+}
+.carousel-indicators li {
+    background-color: rgb(58, 56, 56) !important;
+}
+.hr-blue {
+    color: #3B639C;
+    border: 10px solid;
+}
+.mtop {
+    margin-top: 30vh !important;
+}
+.bl-blue {
+    border-left: 2px solid #3B639C;
+}
+.btn-light {
+    background: rgb(234, 236, 231) !important;
+}
+.bg-blue {
+    background: #dae5ee;
+    border-top: 4px solid #bbd6ec;
+    border-bottom: 4px solid #bbd6ec;
+}
+.row {
+    margin: auto;;
+}
+.footer {
+    background: #6B6C68;
+}
+.fab {
+    font-size: 2rem;
+}
+.size {
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 100px) and (max-width: 500px) {
+    .c-digital{
+        width: 100%;
+    }
+    .img-footer {
+        width: 50% !important;
+    }
+    .carousel-item {
+        height: 400px !important;
+    }
+    .d-block {
+        height: 100% !important;
+    }
+    .d-none {
+        display: unset !important;
+    }
+    .w-movile {
+        width: 100% !important;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .img-footer {
+        width: 30% !important;
+    }
+    .carousel-item {
+        height: 300px !important;
+    }
+    .d-block {
+        height: 100% !important;
+    }
+}
